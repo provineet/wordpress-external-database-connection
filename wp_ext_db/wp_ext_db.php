@@ -1,12 +1,7 @@
 <?php
 
 /**
- * The plugin bootstrap file
- *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
+ * WordPress External Database Connection
  *
  * @link              http://www.vineetverma.me
  * @since             1.0.0
@@ -15,7 +10,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP External DB Login
  * Plugin URI:        http://www.wordpressbeast.com/wordpress_external_db_login
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Connects to an remote WordPress Database and provide you with a Global $new_wpdb instance of wpdb Class.
  * Version:           1.0.0
  * Author:            Vineet Verma
  * Author URI:        http://www.vineetverma.me
